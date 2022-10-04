@@ -1,0 +1,37 @@
+html {
+    background-image: url("src/End_Poem_background_BE.webp");
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+body {
+    background-color: #e2e2e21c;
+    margin: 40px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+main article {
+    background-color: #d7a2e825;
+    border-width: 1px;
+    width: 400px;
+    height: 200px;
+}
+main h3, p {
+    text-align: center;
+    flex: 0;
+}
+a:visited {
+    color:aquamarine;
+}
+.row {
+    display: flex;
+}
