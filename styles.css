@@ -46,7 +46,7 @@ body main article {
 body main article:hover {
     background-color: #d7a2e85d;
     transition: 0.5s;
-    font-size: 24px;
+    font-size: 20px;
     width: 450px;
     padding: 20px;
 }
