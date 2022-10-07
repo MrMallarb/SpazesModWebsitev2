@@ -1,5 +1,5 @@
 html {
-    background-image: url("src/pixel_background.jpg");
+    background-image: url("src/End_Poem_background.webp");
     background-size: 2000px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -11,20 +11,44 @@ h1 {
 h3, p {
     text-align: center;
 }
+header {
+    transition: 0.5s;
+    background-color: rgba(240, 248, 255, 0.226);
+}
+header:hover {
+    transition: 0.5s;
+    font-size: 20px;
+    background-color: rgba(242, 161, 255, 0.226);
+}
 body {
     background-color: #e2e2e21c;
+    border-style: solid;
     margin: 40px;
+
 }
 body main {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
+    overflow: clip;
 }
 body main article {
+    transition: 0.5s;
+    justify-content: center;
     background-color: #d7a2e825;
-    border-width: 1px;
+    border-style: dashed;
     width: 400px;
-    height: 200px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px
+}
+body main article:hover {
+    background-color: #d7a2e85d;
+    transition: 0.5s;
+    font-size: 24px;
+    width: 450px;
+    padding: 20px;
 }
 footer p {
     font-size: 9px;
@@ -48,12 +72,8 @@ a:visited {
     border-style: double;
     padding: 24px 32px;
     border-radius: 40px;
+    margin: 15px;
     text-align: center;
-    position: absolute;
-    transform: translate(150%, -0%)
-}
-.centered {
-    transform: translate(85%, -0%)
 }
 
 .button:hover {
